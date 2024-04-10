@@ -2,6 +2,7 @@ const { Server } = require("socket.io");
 
 const io = new Server(8000, {
   cors: true,
+  origin: "https://tzljrjxl-3000.inc1.devtunnels.ms/"
 });
 
 const emailToSocketIdMap = new Map();
